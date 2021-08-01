@@ -18,7 +18,13 @@
     .tablet-place-desc2{
         margin-bottom: 22px;
     }
-    
+    .btn-buy-ticket{
+        width: 100%;
+        text-align: center;
+    }
+    .click-send{
+        width: 100%;
+    }
 }/* mobile */
 @media (max-width: 739px){
     #header{
@@ -63,8 +69,11 @@
              width: 100%;
          }
          .place-item.col.col-third {
-            margin-bottom: 16px;
-}
+            margin-top: 16px;
+        }
+        .member-lists .member-img{
+            margin-bottom: 15px;
+        }
         .contact-text{
             width: 100%;
             padding-bottom: 16px;
@@ -75,4 +84,16 @@
         .map{
             padding: 50px;
         }
+        ul.tickets-list {
+            margin-top: 48px;
+        }
+        .click-send{
+            width: 100%;
+        }
+        .btn-buy-ticket{
+            width: 100%;
+        }
+        /* #footer{
+            height: 100px;
+        } */
 }
