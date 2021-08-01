@@ -6,9 +6,7 @@
 } */
 /* tablet */
 @media (min-width:740px) and (max-width: 1023px){
-    #content .content-gif{
-        transform: translateX(475%);
-    }
+    
     .place-body {
         min-height: 330px;
     }
@@ -22,10 +20,7 @@
         width: 100%;
         text-align: center;
     }
-    .click-send{
-        width: 100%;
-    }
-}/* mobile */
+ }/* mobile */
 @media (max-width: 739px){
     #header{
         overflow: hidden;
@@ -59,9 +54,7 @@
              right: 0;
              display: block;
          }
-         #content .content-gif{
-            transform: translateX(220%);
-         }
+         
          #content .member-item{
              width: 100%;
          } 
@@ -92,8 +85,18 @@
         }
         .btn-buy-ticket{
             width: 100%;
+            text-align: center;
+        }
+        .stick{
+            text-align: justify;
+        }
+        .stick i{
+            margin: 13px 31px;
+    display: inline-block;
         }
         /* #footer{
             height: 100px;
         } */
-}
+}   .click-send{
+        width: 100%;
+    }
